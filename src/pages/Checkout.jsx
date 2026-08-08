@@ -59,10 +59,9 @@ function Checkout() {
     };
 
     try {
-      const response = await axios.post(
-        "http://localhost:5000/api/orders",
-        order
-      );
+      const response = await axios.get(
+  "https://foodie-backend-j2su.onrender.com/api/admin/orders"
+);
 
       console.log("Order response:", response.data);
 

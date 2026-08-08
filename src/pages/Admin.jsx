@@ -13,8 +13,8 @@ function Admin() {
   const fetchOrders = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:5000/api/admin/orders"
-      );
+  "https://foodie-backend-j2su.onrender.com/api/admin/orders"
+);
 
       if (response.data.success) {
         setOrders(response.data.orders);
@@ -46,8 +46,8 @@ function Admin() {
 
     try {
       const response = await axios.patch(
-        `http://localhost:5000/api/admin/orders/${orderId}/cancel`
-      );
+  `https://foodie-backend-j2su.onrender.com/api/admin/orders/${orderId}/cancel`
+);
 
       if (response.data.success) {
         alert("Order cancelled successfully");
