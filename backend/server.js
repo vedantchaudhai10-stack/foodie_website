@@ -4,7 +4,7 @@ const express = require("express");
 const cors = require("cors");
 const fs = require("fs");
 const path = require("path");
-const { sendOrderEmails } = require("./services/emailService");
+const { sendOrderEmails } = require("./services/emailservice");
 
 const app = express();
 
