@@ -1,5 +1,13 @@
 require("dotenv").config();
+app.post("/api/orders", async (req, res) => {
+  console.log("🔥 POST /api/orders REACHED RENDER");
 
+  try {
+    const order = req.body;
+
+    console.log("New Order Received:", order.orderId);
+
+    // rest of your code...
 const express = require("express");
 const cors = require("cors");
 const fs = require("fs");
