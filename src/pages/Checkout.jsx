@@ -59,28 +59,39 @@ function Checkout() {
     };
 
     try {
-      const response = await axios.get(
-  "https://foodie-backend-j2su.onrender.com/api/admin/orders"
-);
+      console.log("Sending order to backend:", order);
+
+      // Send order to backend
+      const response = await axios.post(
+        "https://foodie-backend-j2su.onrender.com/api/orders",
+        order
+      );
 
       console.log("Order response:", response.data);
 
-      // Save order for success page
-      localStorage.setItem(
-        "foodieOrder",
-        JSON.stringify(order)
-      );
+      if (response.data.success) {
+        // Save order for success page
+        localStorage.setItem(
+          "foodieOrder",
+          JSON.stringify(order)
+        );
 
-      // Clear cart
-      clearCart();
+        // Clear cart
+        clearCart();
 
-      // Go to success page
-      navigate("/success");
+        // Go to success page
+        navigate("/success");
+      } else {
+        throw new Error(
+          response.data.message || "Order failed"
+        );
+      }
     } catch (error) {
       console.error("Order error:", error);
 
       const message =
         error.response?.data?.message ||
+        error.message ||
         "Unable to place your order. Please try again.";
 
       alert(message);
@@ -92,7 +103,7 @@ function Checkout() {
   if (cart.length === 0) {
     return (
       <div className="checkout-empty">
-        <h1>Your cart is empty 🛒</h1>
+        <h2>Your cart is empty 🛒</h2>
 
         <p>
           Add some delicious food before checking out.
@@ -107,7 +118,6 @@ function Checkout() {
 
   return (
     <div className="checkout-page">
-
       {/* Navbar */}
       <header className="navbar">
         <Link to="/" className="logo">
@@ -121,7 +131,6 @@ function Checkout() {
       </header>
 
       <main className="checkout-container">
-
         {/* Heading */}
         <div className="checkout-heading">
           <p>ALMOST THERE</p>
@@ -134,18 +143,14 @@ function Checkout() {
         </div>
 
         <div className="checkout-layout">
-
           {/* Customer Form */}
           <form
             className="checkout-form"
             onSubmit={handleSubmit}
           >
-
             {/* Contact Information */}
             <div className="checkout-section">
-
               <div className="checkout-section-title">
-
                 <div className="checkout-icon">
                   👤
                 </div>
@@ -157,11 +162,9 @@ function Checkout() {
                     We'll use this to contact you about your order.
                   </p>
                 </div>
-
               </div>
 
               <div className="form-grid">
-
                 {/* Name */}
                 <div className="form-group">
                   <label>
@@ -211,15 +214,12 @@ function Checkout() {
                     required
                   />
                 </div>
-
               </div>
             </div>
 
             {/* Delivery Address */}
             <div className="checkout-section">
-
               <div className="checkout-section-title">
-
                 <div className="checkout-icon">
                   <MapPin size={22} />
                 </div>
@@ -231,11 +231,9 @@ function Checkout() {
                     Where should we deliver your food?
                   </p>
                 </div>
-
               </div>
 
               <div className="form-grid">
-
                 {/* Address */}
                 <div className="form-group full-width">
                   <label>
@@ -285,16 +283,12 @@ function Checkout() {
                     required
                   />
                 </div>
-
               </div>
-
             </div>
 
             {/* Payment */}
             <div className="checkout-section">
-
               <div className="checkout-section-title">
-
                 <div className="checkout-icon">
                   <CreditCard size={22} />
                 </div>
@@ -306,11 +300,9 @@ function Checkout() {
                     Select how you want to pay.
                   </p>
                 </div>
-
               </div>
 
               <div className="payment-options">
-
                 {/* Cash on Delivery */}
                 <label
                   className={
@@ -319,7 +311,6 @@ function Checkout() {
                       : "payment-option"
                   }
                 >
-
                   <input
                     type="radio"
                     name="payment"
@@ -339,7 +330,6 @@ function Checkout() {
                       Pay when your food arrives
                     </span>
                   </div>
-
                 </label>
 
                 {/* Online Payment */}
@@ -350,7 +340,6 @@ function Checkout() {
                       : "payment-option"
                   }
                 >
-
                   <input
                     type="radio"
                     name="payment"
@@ -370,11 +359,8 @@ function Checkout() {
                       UI only — payment gateway not connected
                     </span>
                   </div>
-
                 </label>
-
               </div>
-
             </div>
 
             {/* Place Order */}
@@ -387,22 +373,18 @@ function Checkout() {
                 ? "Placing Order..."
                 : `Place Order · ₹${total}`}
             </button>
-
           </form>
 
           {/* Order Summary */}
           <aside className="checkout-summary">
-
             <h2>Your Order</h2>
 
             <div className="checkout-items">
-
               {cart.map((item) => (
                 <div
                   className="checkout-item"
                   key={item.id}
                 >
-
                   <img
                     src={item.image}
                     alt={item.name}
@@ -421,10 +403,8 @@ function Checkout() {
                   <strong>
                     ₹{item.price * item.quantity}
                   </strong>
-
                 </div>
               ))}
-
             </div>
 
             <div className="summary-divider"></div>
@@ -458,9 +438,7 @@ function Checkout() {
             <div className="checkout-security">
               🔒 Your information is secure
             </div>
-
           </aside>
-
         </div>
       </main>
     </div>

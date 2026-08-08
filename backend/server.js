@@ -50,8 +50,20 @@ app.post("/api/orders", async (req, res) => {
 
     console.log("New Order Received:", order.orderId);
 
+    // Validate order
+    if (!order.orderId) {
+      return res.status(400).json({
+        success: false,
+        message: "Order ID is required",
+      });
+    }
+
     // Read existing orders
-    const ordersData = fs.readFileSync(ordersFile, "utf8");
+    const ordersData = fs.readFileSync(
+      ordersFile,
+      "utf8"
+    );
+
     const orders = JSON.parse(ordersData);
 
     // Create new order
@@ -70,27 +82,42 @@ app.post("/api/orders", async (req, res) => {
     );
 
     console.log(
-      "Order saved successfully:",
+      "✅ Order saved successfully:",
       order.orderId
     );
 
     // Send email
-    await sendOrderEmails(order);
+    try {
+      await sendOrderEmails(order);
 
-    console.log("✅ Order email function completed");
+      console.log(
+        "✅ Order email function completed"
+      );
+    } catch (emailError) {
+      console.error(
+        "⚠️ Email sending failed:",
+        emailError
+      );
 
+      // Don't fail the order if email fails
+    }
+
+    // Send success response
     res.status(201).json({
       success: true,
       message: "Order received and saved successfully",
       orderId: order.orderId,
     });
-
   } catch (error) {
-    console.error("❌ Email/Order Error:", error);
+    console.error(
+      "❌ Order Error:",
+      error
+    );
 
     res.status(500).json({
       success: false,
-      message: "Order received but something went wrong",
+      message: "Unable to save order",
+      error: error.message,
     });
   }
 });
@@ -109,15 +136,17 @@ app.get("/api/admin/orders", (req, res) => {
     const orders = JSON.parse(ordersData);
 
     // Latest orders first
-    orders.reverse();
+    const latestOrders = [...orders].reverse();
 
     res.json({
       success: true,
-      orders,
+      orders: latestOrders,
     });
-
   } catch (error) {
-    console.error("Get Orders Error:", error);
+    console.error(
+      "Get Orders Error:",
+      error
+    );
 
     res.status(500).json({
       success: false,
@@ -152,7 +181,8 @@ app.patch(
       // Find order
       const orderIndex = orders.findIndex(
         (order) =>
-          String(order.orderId) === String(orderId)
+          String(order.orderId) ===
+          String(orderId)
       );
 
       // Order not found
@@ -175,7 +205,8 @@ app.patch(
       }
 
       // Cancel order
-      orders[orderIndex].status = "Cancelled";
+      orders[orderIndex].status =
+        "Cancelled";
 
       orders[orderIndex].cancelledAt =
         new Date().toISOString();
@@ -187,16 +218,16 @@ app.patch(
       );
 
       console.log(
-        "Order cancelled successfully:",
+        "✅ Order cancelled successfully:",
         orderId
       );
 
       res.json({
         success: true,
-        message: "Order cancelled successfully",
+        message:
+          "Order cancelled successfully",
         order: orders[orderIndex],
       });
-
     } catch (error) {
       console.error(
         "Cancel Order Error:",
