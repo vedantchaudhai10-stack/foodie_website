@@ -1,0 +1,1397 @@
+[
+  {
+    "orderId": "FD1786106227357",
+    "customer": {
+      "name": "vedant chaudhari",
+      "phone": "8263930791",
+      "email": "xeqtvenom11@gmail.com",
+      "address": "28 Mohit Nagar",
+      "city": "Jalgaon",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 8,
+        "name": "Chocolate Brownie",
+        "category": "Desserts",
+        "price": 99,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1564355808539-22fda35bed7e",
+        "description": "Soft, fudgy chocolate brownie perfect for satisfying your sweet cravings.",
+        "isVeg": true,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 99,
+    "deliveryFee": 40,
+    "total": 139,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T12:37:07.357Z",
+    "status": "Cancelled",
+    "createdAt": "2026-08-07T12:37:07.396Z",
+    "cancelledAt": "2026-08-07T12:52:01.668Z"
+  },
+  {
+    "orderId": "FD1786106227357",
+    "customer": {
+      "name": "vedant chaudhari",
+      "phone": "8263930791",
+      "email": "xeqtvenom11@gmail.com",
+      "address": "28 Mohit Nagar",
+      "city": "Jalgaon",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 8,
+        "name": "Chocolate Brownie",
+        "category": "Desserts",
+        "price": 99,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1564355808539-22fda35bed7e",
+        "description": "Soft, fudgy chocolate brownie perfect for satisfying your sweet cravings.",
+        "isVeg": true,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 99,
+    "deliveryFee": 40,
+    "total": 139,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T12:37:07.357Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T12:37:08.267Z"
+  },
+  {
+    "orderId": "FD1786106233514",
+    "customer": {
+      "name": "vedant chaudhari",
+      "phone": "8263930791",
+      "email": "xeqtvenom11@gmail.com",
+      "address": "28 Mohit Nagar",
+      "city": "Jalgaon",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 8,
+        "name": "Chocolate Brownie",
+        "category": "Desserts",
+        "price": 99,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1564355808539-22fda35bed7e",
+        "description": "Soft, fudgy chocolate brownie perfect for satisfying your sweet cravings.",
+        "isVeg": true,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 99,
+    "deliveryFee": 40,
+    "total": 139,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T12:37:13.514Z",
+    "status": "Cancelled",
+    "createdAt": "2026-08-07T12:37:13.537Z",
+    "cancelledAt": "2026-08-07T12:51:54.666Z"
+  },
+  {
+    "orderId": "FD1786106233514",
+    "customer": {
+      "name": "vedant chaudhari",
+      "phone": "8263930791",
+      "email": "xeqtvenom11@gmail.com",
+      "address": "28 Mohit Nagar",
+      "city": "Jalgaon",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 8,
+        "name": "Chocolate Brownie",
+        "category": "Desserts",
+        "price": 99,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1564355808539-22fda35bed7e",
+        "description": "Soft, fudgy chocolate brownie perfect for satisfying your sweet cravings.",
+        "isVeg": true,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 99,
+    "deliveryFee": 40,
+    "total": 139,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T12:37:13.514Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T12:37:14.088Z"
+  },
+  {
+    "orderId": "FD1786110433767",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "8263930791",
+      "email": "Kavishvar@gmail.com",
+      "address": "28, Mohit Nagar, Ring Road, Bhuswal 425201",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 4,
+        "name": "Classic Veg Burger",
+        "category": "Burgers",
+        "price": 149,
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1520072959219-c595dc870360",
+        "description": "Delicious crispy vegetable patty with lettuce, tomato and special sauce.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 5,
+        "name": "Margherita Pizza",
+        "category": "Pizza",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002",
+        "description": "Classic pizza topped with mozzarella cheese, tomato sauce and basil.",
+        "isVeg": true,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 348,
+    "deliveryFee": 40,
+    "total": 388,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:47:13.767Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:47:13.841Z"
+  },
+  {
+    "orderId": "FD1786110433767",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "8263930791",
+      "email": "Kavishvar@gmail.com",
+      "address": "28, Mohit Nagar, Ring Road, Bhuswal 425201",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 4,
+        "name": "Classic Veg Burger",
+        "category": "Burgers",
+        "price": 149,
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1520072959219-c595dc870360",
+        "description": "Delicious crispy vegetable patty with lettuce, tomato and special sauce.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 5,
+        "name": "Margherita Pizza",
+        "category": "Pizza",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002",
+        "description": "Classic pizza topped with mozzarella cheese, tomato sauce and basil.",
+        "isVeg": true,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 348,
+    "deliveryFee": 40,
+    "total": 388,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:47:13.767Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:47:14.759Z"
+  },
+  {
+    "orderId": "FD1786110441013",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "8263930791",
+      "email": "Kavishvar@gmail.com",
+      "address": "28, Mohit Nagar, Ring Road, Bhuswal 425201",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 4,
+        "name": "Classic Veg Burger",
+        "category": "Burgers",
+        "price": 149,
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1520072959219-c595dc870360",
+        "description": "Delicious crispy vegetable patty with lettuce, tomato and special sauce.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 5,
+        "name": "Margherita Pizza",
+        "category": "Pizza",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002",
+        "description": "Classic pizza topped with mozzarella cheese, tomato sauce and basil.",
+        "isVeg": true,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 348,
+    "deliveryFee": 40,
+    "total": 388,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:47:21.013Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:47:21.039Z"
+  },
+  {
+    "orderId": "FD1786110441013",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "8263930791",
+      "email": "Kavishvar@gmail.com",
+      "address": "28, Mohit Nagar, Ring Road, Bhuswal 425201",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 4,
+        "name": "Classic Veg Burger",
+        "category": "Burgers",
+        "price": 149,
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1520072959219-c595dc870360",
+        "description": "Delicious crispy vegetable patty with lettuce, tomato and special sauce.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 5,
+        "name": "Margherita Pizza",
+        "category": "Pizza",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002",
+        "description": "Classic pizza topped with mozzarella cheese, tomato sauce and basil.",
+        "isVeg": true,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 348,
+    "deliveryFee": 40,
+    "total": 388,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:47:21.013Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:47:21.495Z"
+  },
+  {
+    "orderId": "FD1786110466098",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "8263930791",
+      "email": "Kavishvar@gmail.com",
+      "address": "28, Mohit Nagar, Ring Road, Bhuswal 425201",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 4,
+        "name": "Classic Veg Burger",
+        "category": "Burgers",
+        "price": 149,
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1520072959219-c595dc870360",
+        "description": "Delicious crispy vegetable patty with lettuce, tomato and special sauce.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 5,
+        "name": "Margherita Pizza",
+        "category": "Pizza",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002",
+        "description": "Classic pizza topped with mozzarella cheese, tomato sauce and basil.",
+        "isVeg": true,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 348,
+    "deliveryFee": 40,
+    "total": 388,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:47:46.098Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:47:46.126Z"
+  },
+  {
+    "orderId": "FD1786110466098",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "8263930791",
+      "email": "Kavishvar@gmail.com",
+      "address": "28, Mohit Nagar, Ring Road, Bhuswal 425201",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 4,
+        "name": "Classic Veg Burger",
+        "category": "Burgers",
+        "price": 149,
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1520072959219-c595dc870360",
+        "description": "Delicious crispy vegetable patty with lettuce, tomato and special sauce.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 5,
+        "name": "Margherita Pizza",
+        "category": "Pizza",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002",
+        "description": "Classic pizza topped with mozzarella cheese, tomato sauce and basil.",
+        "isVeg": true,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 348,
+    "deliveryFee": 40,
+    "total": 388,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:47:46.098Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:47:46.594Z"
+  },
+  {
+    "orderId": "FD1786110613288",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:50:13.288Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:50:13.319Z"
+  },
+  {
+    "orderId": "FD1786110613288",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:50:13.288Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:50:13.811Z"
+  },
+  {
+    "orderId": "FD1786110726381",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:52:06.381Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:52:06.405Z"
+  },
+  {
+    "orderId": "FD1786110726381",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:52:06.381Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:52:06.925Z"
+  },
+  {
+    "orderId": "FD1786110737297",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:52:17.297Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:52:17.322Z"
+  },
+  {
+    "orderId": "FD1786110737297",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:52:17.297Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:52:17.799Z"
+  },
+  {
+    "orderId": "FD1786110810021",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:53:30.021Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:53:30.051Z"
+  },
+  {
+    "orderId": "FD1786110810021",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:53:30.021Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:53:30.784Z"
+  },
+  {
+    "orderId": "FD1786110831001",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:53:51.001Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:53:51.033Z"
+  },
+  {
+    "orderId": "FD1786110831001",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:53:51.001Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:53:51.517Z"
+  },
+  {
+    "orderId": "FD1786110873373",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:54:33.373Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:54:33.396Z"
+  },
+  {
+    "orderId": "FD1786110873373",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:54:33.373Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:54:33.953Z"
+  },
+  {
+    "orderId": "FD1786110881519",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:54:41.519Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:54:41.542Z"
+  },
+  {
+    "orderId": "FD1786110881519",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:54:41.519Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:54:42.092Z"
+  },
+  {
+    "orderId": "FD1786111052930",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:57:32.930Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:57:32.955Z"
+  },
+  {
+    "orderId": "FD1786111052930",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:57:32.930Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:57:33.431Z"
+  },
+  {
+    "orderId": "FD1786111066463",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:57:46.463Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:57:46.489Z"
+  },
+  {
+    "orderId": "FD1786111066463",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:57:46.463Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:57:46.957Z"
+  },
+  {
+    "orderId": "FD1786111144543",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:59:04.543Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:59:04.573Z"
+  },
+  {
+    "orderId": "FD1786111144543",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T13:59:04.543Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T13:59:05.088Z"
+  },
+  {
+    "orderId": "FD1786111279047",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T14:01:19.047Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T14:01:19.070Z"
+  },
+  {
+    "orderId": "FD1786111279047",
+    "customer": {
+      "name": "Vedant Chaudhari",
+      "phone": "7507716672",
+      "email": "kavishvar@gmail.com",
+      "address": "28,Mohit Nagar",
+      "city": "Bhusawal",
+      "pincode": "425201"
+    },
+    "items": [
+      {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Biryani",
+        "price": 199,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+        "description": "Flavorful basmati rice cooked with fresh vegetables and aromatic spices.",
+        "isVeg": true,
+        "quantity": 1
+      },
+      {
+        "id": 6,
+        "name": "Chicken Pizza",
+        "category": "Pizza",
+        "price": 299,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "description": "Loaded pizza with juicy chicken, mozzarella cheese and delicious toppings.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 498,
+    "deliveryFee": 40,
+    "total": 538,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T14:01:19.047Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T14:01:19.559Z"
+  },
+  {
+    "orderId": "FD1786111630410",
+    "customer": {
+      "name": "kjkknk",
+      "phone": "8548949525",
+      "email": "vedantchaudhai10@gmail.com",
+      "address": "nhkikjbk",
+      "city": "jjjbjhb",
+      "pincode": "785412"
+    },
+    "items": [
+      {
+        "id": 3,
+        "name": "Chicken Burger",
+        "category": "Burgers",
+        "price": 179,
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+        "description": "Crispy chicken patty with fresh vegetables, cheese and creamy sauce.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 179,
+    "deliveryFee": 40,
+    "total": 219,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T14:07:10.410Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T14:07:10.447Z"
+  },
+  {
+    "orderId": "FD1786111630410",
+    "customer": {
+      "name": "kjkknk",
+      "phone": "8548949525",
+      "email": "vedantchaudhai10@gmail.com",
+      "address": "nhkikjbk",
+      "city": "jjjbjhb",
+      "pincode": "785412"
+    },
+    "items": [
+      {
+        "id": 3,
+        "name": "Chicken Burger",
+        "category": "Burgers",
+        "price": 179,
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+        "description": "Crispy chicken patty with fresh vegetables, cheese and creamy sauce.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 179,
+    "deliveryFee": 40,
+    "total": 219,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T14:07:10.410Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T14:07:11.216Z"
+  },
+  {
+    "orderId": "FD1786111738050",
+    "customer": {
+      "name": "kjkknk",
+      "phone": "8548949525",
+      "email": "vedantchaudhai10@gmail.com",
+      "address": "nhkikjbk",
+      "city": "jjjbjhb",
+      "pincode": "785412"
+    },
+    "items": [
+      {
+        "id": 3,
+        "name": "Chicken Burger",
+        "category": "Burgers",
+        "price": 179,
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+        "description": "Crispy chicken patty with fresh vegetables, cheese and creamy sauce.",
+        "isVeg": false,
+        "quantity": 1
+      }
+    ],
+    "subtotal": 179,
+    "deliveryFee": 40,
+    "total": 219,
+    "paymentMethod": "cod",
+    "orderDate": "2026-08-07T14:08:58.050Z",
+    "status": "Pending",
+    "createdAt": "2026-08-07T14:08:58.079Z"
+  }
+]
